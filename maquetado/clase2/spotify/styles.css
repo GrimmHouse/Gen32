@@ -1,0 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: rgb(36, 36, 36);
+}
+a {
+    color: rgb(78, 216, 92);
+}
+ol {
+    color: rgb(78, 216, 92);
+}
+
+p, 
+h1, 
+h2,  
+title, 
+b {
+        color: aliceblue;
+}

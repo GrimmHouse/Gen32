@@ -1,0 +1,39 @@
+/* position relative permite que puedas mover dentro del container */
+
+.box {
+    width: 330px;
+    height: 300px;
+    border: 1px solid greenyellow;
+    background-color: aquamarine;
+    position: relative;
+}
+.cabeza {
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    top: 100px;
+    left: 90px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+}
+.orejaD {
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 70px;
+    left: 60px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+}
+.orejaI {
+position: absolute;
+height: 80px;
+width: 80px;
+top: 70px;
+left: 190px;
+background-color: red;
+position: absolute;
+border-radius: 50%;
+}

@@ -1,0 +1,87 @@
+* 
+{
+    margin: 0;
+    padding: 0%;
+}
+
+
+p 
+    {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h1 
+    {
+        font-family: 'Times New Roman', Times, serif;
+}
+
+h1 
+    {
+
+        font-family: monospace;
+    }
+.contenedor {
+    background-color: #e3e3e3;
+    border: 1px solid #333;
+    padding: 12px;
+    margin: 50px; /* se pueden meter los 4 valores de golpe*/
+    margin: 10px 20px;
+}
+#selectorHijo p {
+    color: blue;
+}
+/* selector hijo directo*/
+#selectorHijoDirecto > p {
+        color: red;
+}
+/* Selector hermano general*/
+#selectorHermanoGeneral h2 ~ button {
+    background-color: blue;
+    color: white;
+}
+
+/* Selector de atributo */
+a[href="https://www.kodemia.mx"],
+a[href="https://www.google.com"]
+{
+    text-decoration: none; 
+
+} 
+input[type="text"]{
+    width: 100px;
+    padding: 10px;
+}
+#pseudoselectores .btn {
+    background-color: #454556;
+    color: white;
+    border: none;
+    padding: 5px;
+}
+#pseudoselectores .btn:hover {
+    width: 200px;
+
+}
+
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: line-through;
+}
+
+#enlaces a:link {
+    color: red
+}
+
+#enlaces a:visited,
+#enlaces a:hover {
+    color: green;
+}
+#listas div {
+    background-color: red;
+    color: #454556;
+}
+
+#listas div:first-child {
+    background-color: blue;
+    color: white;
+}

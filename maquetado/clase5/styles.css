@@ -1,0 +1,37 @@
+.contenedorNoResponsivo {
+    background-color: grey;
+    height: 2000px;
+    padding: 50px;
+}
+
+
+.cajaMorada {
+    background-color: purple;
+    height: 100px;
+    padding: 20px;
+
+}
+/* media queries, el max-width sirve tambien para etiquetas contenedorws normales, establece el tamaño maximo de pixeles*/
+
+@media screen and (max-width: 600px)  {
+    body {
+        background-color: black;
+        }
+    .cajaMorada {
+        width: 45%;
+        height: 400px;
+        }
+}
+
+/* estilos para tablet*/
+@media screen and (min-width:768px) {
+
+    
+}
+/* estilos para laptop normal*/
+@media screen and (min-width:992px){
+}
+/* estilos para laptop hd*/
+@media screen and (min-width:1440px){
+    
+}

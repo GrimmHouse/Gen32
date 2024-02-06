@@ -1,0 +1,32 @@
+/* mobile 600px*/
+@media screen and (min-width: 600px) {
+
+    body {background-color: grey;} 
+.mobile{ display: block;}
+.tablet{ display: none;}
+.desktop{ display: none;}
+.xxl{ display: none;}
+      
+}
+/* tablet 768px*/
+@media screen and (min-width: 768px) {
+
+    body {
+        background-color: yellowgreen}
+.tablet{ display: block;}
+.mobile{ display: none;}
+}
+/* mobile 600px*/
+@media screen and (min-width: 992px) {
+    body {
+        background-color: orange;}
+.desktop{ display: block;}
+.tablet{ display: none;}
+}
+/* mobile 600px*/
+@media screen and (min-width: 1980px) {
+    body {
+        background-color: gold;}
+.xxl{ display: block;}
+.desktop{ display: none;}
+}
