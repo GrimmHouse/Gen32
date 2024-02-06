@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header h1{
+    text-align: center;
+}
+header h3{
+    text-align: center;
+}
+body {
+    background: linear-gradient(rgb(255, 217, 0),rgb(33, 33, 33));
+    min-height: 100vh;
+}
+main{
+    width: 100%;
+}
+
+.blogList{
+    border: 5px solid #ffffff;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgb(91, 91, 91);
+    
+}
+.post{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    color: blanchedalmond;
+    margin: 20px 0;
+}
+@media screen and (min-width: 768px){
+    .post{
+        width: 48.5%;
+        display: inline-block;
+        margin: 20px 0.5%;
+    }
+}
+@media screen and (min-width: 768px){
+    .post{
+        width: 48.5%;
+        display: inline-block;
+        margin: 20px 0.5%;
+    }
+}
+@media screen and (min-width: 768px){
+    .post{
+        width: 48.5%;
+        display: inline-block;
+        margin: 20px 0.5%;
+    }
+}
+@media screen and (min-width: 768px){
+    .post{
+        width: 48.5%;
+        display: inline-block;
+        margin: 20px 0.5%;
+    }
+}

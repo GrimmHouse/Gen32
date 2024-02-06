@@ -1,0 +1,30 @@
+
+header h1{
+    text-align: center;
+}
+body{
+    background: linear-gradient(rgb(0, 255, 195),rgb(94, 100, 100));
+}
+main{
+    
+    padding: 20%;
+    border: 10%;
+    
+}
+.box{
+    background-color: black;
+    border: 5px solid;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div {
+    position: sticky;
+    top: 0;
+    background-color: aquamarine;
+    color: black;
+}
+p {
+    background-color: black;
+    color: aliceblue;
+}
